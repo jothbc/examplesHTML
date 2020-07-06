@@ -1,0 +1,18 @@
+#caixa{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 8px;
+    background: #009670;
+    box-shadow: 20px 20px 5px 10px black;
+    /*
+        descolamento y, x, bluer, spread(espalhar) e cor
+    */
+}
+#caixa h1{
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    /*
+        descolamento y, x, bluer e cor
+    */
+}

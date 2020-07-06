@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+
+        var video = Array()
+        video[1] = Array()
+        video[1]['nome'] = 'fullmetal Alchmist'
+        video[1]['categoria'] = 'Anime'
+
+        function getVideo(video) {
+            //logica
+            //http
+            try {
+                console.log(video[0]['nome'])
+            }
+            catch (e) {
+                console.log('o erro esta aqui')
+                tratarErro(e)
+            }
+            finally {
+                console.log('sempre passa por aqui')
+            }
+        }
+        function tratarErro(e){
+            //seria bom enviar o erro para a equipe de desenvolvimento
+            throw new Error('o throw da pra usar em qualquer lugar forcando um travamento intencional da aplicacao nesse ponto')
+        }
+
+        getVideo(video)
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
